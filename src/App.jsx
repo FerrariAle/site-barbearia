@@ -1,15 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from './components/Header';
+import HeroSection from './sections/HeroSection';
+import ServicesSection from './sections/ServicesSection';
+import BookingSection from './sections/BookingSection';
+import GallerySection from './sections/GallerySection';
+import TestimonialsSection from './sections/TestimonialSection';
+import Footer from './sections/Footer';
 
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold text-brown-700">
-        Site Barbearia
-      </h1>
-    </div>
+    <div className='bg-white text-zinc-800'>
+      <Header />
+      <main>
+        <HeroSection />
+        <ServicesSection />
+        <BookingSection />
+        <GallerySection />
+        <TestimonialsSection />
+      </main>
+      <Footer />
+    </div >
   )
 }
 
