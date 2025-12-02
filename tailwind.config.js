@@ -10,19 +10,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        'brown': {
-          '50': '#fdf8f6',
-          '100': '#f2e8e5',
-          '200': '#eaddd7',
-          '300': '#e0cec7',
-          '400': '#d2bab0',
-          '500': '#bfa094',
-          '600': '#a18072',
-          '700': '#976654',
-          '800': '#845345',
-          '900': '#714539'
+        'accent': { // Cor de Acento (o marrom escuro)
+          'DEFAULT': '#483D38',
+          'light': '#6D5C54', // Tom mais claro para hovers
+          'dark': '#3A2E2A',  // Tom mais escuro
         },
-        'cream': '#F5F5DC',
+        'background': { // Fundo Principal (branco quente)
+          'DEFAULT': '#FAF8F5',
+        },
+        'background-alt': { // Fundo Secundário (bege/cinza)
+          'DEFAULT': '#E8E3DD',
+        },
+        // Manter as cores neutras para textos é uma boa prática
+        'text-primary': '#1c1917', // Quase preto, mas mais quente
+        'text-secondary': '#78716c', // Cinza quente para textos secundários
       },
       fontFamily: {
         serif: ['Playfair Display', ...defaultTheme.fontFamily.serif],

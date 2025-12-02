@@ -3,7 +3,7 @@ import { testimonials } from "../data/testimonialsData.js";
 
 export default function TestimonialsSection() {
     return (
-        <section id="depoimentos" className="py-20 sm:py-32 bg-cream">
+        <section id="depoimentos" className="py-20 sm:py-32 bg-background">
             <div className="container mx-auto px-4 sm:px-6 md:px-8">
 
                 {/* Cabeçalho da seção */}

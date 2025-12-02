@@ -2,7 +2,7 @@ import { galleryImages } from "../data/galleryData.js";
 
 export default function GallerySection() {
     return (
-        <section id='galeria' className="py-20 sm:py-32 bg-white">
+        <section id='galeria' className="py-20 sm:py-32 bg-background-alt">
             <div className="container mx-auto px-4 sm:px-6 md:px-8">
 
                 {/* Cabeçalho da seção */}

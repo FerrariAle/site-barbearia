@@ -5,7 +5,7 @@ const StarIcon = () => <svg className="w-6 h-6 text-brown-700" fill="none" viewB
 
 export default function HeroSection() {
     return (
-        <section id='inicio' className='pt-24 md:pt-32'>
+        <section id='inicio' className='pt-24 md:pt-32 min-h-screen'>
             <div className='container mx-auto px-4 sm:px-6 md:px-8'>
 
                 {/* Grid principal de duas colunas */}
@@ -22,10 +22,10 @@ export default function HeroSection() {
 
                         {/* Botões de ação */}
                         <div className="mt-8 flex justify-center md:justify-start gap-4">
-                            <a href="#agendar" className='bg-brown-700 text-white font-bold px-8 py-3 rounded-full hover:bg-zinc-300 transition-colors'>
+                            <a href="#agendar" className='bg-accent text-white font-bold px-8 py-3 rounded-full hover:bg-accent-dark transition-colors'>
                                 Agendar
                             </a>
-                            <a href="#servicos" className='bg-zinc-200 text-zinc-800 font-bold px-8 py-3 rounded-full hover:bg-zinc-300 transition-colors'>
+                            <a href="#servicos" className='bg-background-alt text-text-primary font-bold px-8 py-3 rounded-full hover:bg-zinc-300 transition-colors'>
                                 Serviços
                             </a>
                         </div>

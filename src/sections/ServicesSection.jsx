@@ -3,7 +3,7 @@ import { services } from "../data/servicesData.jsx"
 
 export default function ServicesSection() {
     return (
-        <section id="servicos" className="mt-10 py-20 sm:py-32 bg-cream">
+        <section id="servicos" className="mt-10 py-20 sm:py-32 bg-background-alt">
             <div className="container mx-auto px-4 sm:px-6 md:px-8">
                 {/* Cabeçalho da Seção */}
                 <div className="max-w-2xl mx-auto text-center mb-16">

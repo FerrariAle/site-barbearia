@@ -11,7 +11,7 @@ const StarIcon = ({ isFilled }) => (
 
 export default function TestimonialCard({ testimonial }) {
     return (
-        <div className="bg-white p-8 rounded-2xl shadow-sm flex flex-col h-full">
+        <div className="bg-background-alt p-8 rounded-2xl shadow-sm flex flex-col h-full">
 
             {/* Avaliação em estrelas */}
             <div className="flex mb-4">
@@ -22,14 +22,14 @@ export default function TestimonialCard({ testimonial }) {
             </div>
 
             {/* Texto do depoimento */}
-            <blockquote className="text-zinc-700 italic flex-grow">
+            <blockquote className="text-text-secondary italic flex-grow">
                 "{testimonial.text}"
             </blockquote>
 
             {/* Rodapé do card */}
             <footer className="mt-6 pt-6 border-t border-zinc-200">
-                <p className="font-bold text-zinc-900">{testimonial.author}</p>
-                <p className="text-sm text-zinc-500">{testimonial.date}</p>
+                <p className="font-bold text-text-primary">{testimonial.author}</p>
+                <p className="text-sm text-text-secondary">{testimonial.date}</p>
             </footer>
         </div>
     )

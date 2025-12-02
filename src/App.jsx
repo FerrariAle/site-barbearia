@@ -12,7 +12,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className='bg-white text-zinc-800'>
+    <div className='bg-background text-text-primary'>
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <main>
         <HeroSection />
